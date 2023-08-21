@@ -1,0 +1,37 @@
+/* Works Sans (Google fonts)
+@font-face {
+  font-family: 'Work Sans';
+  src: url('../../../../public/fonts/worksans/WorkSans-Light.ttf');
+  font-weight: 100 300;
+}
+@font-face {
+  font-family: 'Work Sans';
+  src: url('../../../../public/fonts/worksans/WorkSans-ExtraLight.ttf');
+  font-weight: 100 300;
+}
+@font-face {
+  font-family: 'Work Sans';
+  src: url('../../../../public/fonts/worksans/WorkSans-Regular.ttf');
+  font-weight: 100 300;
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  src: url('../../../../public/fonts/worksans/WorkSans-Medium.ttf');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  src: url('../../../../public/fonts/worksans/WorkSans-Black.ttf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'space Mono';
+  src: url('../../../../public/fonts/mono/SpaceMono-Regular.ttf');
+}
+@font-face {
+  font-family: 'space Mono';
+  src: url('../../../../public/fonts/mono/SpaceMono-Bold.ttf');
+} */

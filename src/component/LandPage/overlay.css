@@ -1,0 +1,14 @@
+@keyframes spin {
+    from {
+      transform: rotateY(40deg);
+    }
+    to {
+      transform: rotateY(-40deg);
+    }
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .rote {
+      animation: spin 3s ease-in-out 0s infinite alternate;
+    }
+  }
+  
