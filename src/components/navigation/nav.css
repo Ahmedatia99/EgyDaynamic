@@ -1,6 +1,6 @@
 .back::before{
  content: "";
- background-image: url("./images/landing.jpg");
+ background-image: url("../../../public/images/landing.jpg");
  background-size: cover;
  position: absolute;
  top:0;
