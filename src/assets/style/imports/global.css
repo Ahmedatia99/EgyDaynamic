@@ -6,9 +6,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Work sans', sans-serif, -apple-system, BlinkMacSystemFont,
-    Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
-    Helvetica Neue, sans-serif;
+  font-family:Verdana, Geneva, Tahoma, sans-serif,monospace,"Work Sans";
 
   font-size: theme('fontSize.lg');
   scroll-behavior: smooth;
@@ -18,11 +16,14 @@ a {
   text-decoration: none;
   letter-spacing: -1px;
   font-size: 18px;
-  color:theme("colors.main");
-  margin-right:10px
+  margin-right:10px;
+  font-weight: light;
+  transition: all 0.3ms ease-in-out;
 }
 a:hover {
-  border-bottom: 2px solid theme("colors.main");
-  padding-bottom: 5px;
+  color:theme('colors.morning') !important;
+  transform: scale(1.2);
+  font-weight: bold;
+
 }
 
