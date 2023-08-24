@@ -42,7 +42,7 @@ export default function Footer() {
                   strokeLinejoin="round"
                 />
               </svg>
-              <p className=" text-dark flex flex-col justify-center items-start ml-2 text-white font-bold tablet:text-sm mobile:text-xs">
+              <p className=" text-dark flex flex-col justify-center items-start ml-2  font-bold tablet:text-sm mobile:text-xs">
                 subscribe to the mailing service
                 <span className="text-xs font-light">
                   {" "}
@@ -148,7 +148,18 @@ export default function Footer() {
         Copyright © 2023 EgyDynamic
         <div className="flex justify-center items-center w-8 h-8 bg-morning absolute bottom-0 right-0 mb-2 mr-5 rounded-full">
           <a href="#home" className="flex justify-center items-center ">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="w-5 h-5 ml-2 bi bi-arrow-up hover:text-white" viewBox="0 0 16 16"> <path fillRule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"/> </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              className="w-5 h-5 ml-2 bi bi-arrow-up hover:text-white"
+              viewBox="0 0 16 16"
+            >
+              {" "}
+              <path
+                fillRule="evenodd"
+                d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"
+              />{" "}
+            </svg>
           </a>
         </div>
       </div>
